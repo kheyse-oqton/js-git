@@ -76,7 +76,7 @@ Commits also require a `committer` field with the same structure as `author`.
 
 The `date` property of `author` and `committer` is in the format {seconds,offset}
 Where seconds is a unix timestamp in seconds and offset is the number of minutes
-offset for the timezone. (Your local offset can be found with `(new Date).getTimezoneOffset()`)
+offset for the timezone. (Your local offset can be found with `new Date().getTimezoneOffset()`)
 
 The `message` field is mandatory and a simple string.
 
